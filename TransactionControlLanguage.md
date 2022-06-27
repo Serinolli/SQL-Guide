@@ -8,19 +8,19 @@ TRANSACTIONS são um meio de garantir a integridade da base de dados. As mudanç
 
 
 #### Nova Transaction
-BEGIN TRANSACTION *TransactionName*;
+>BEGIN TRANSACTION *TransactionName*;
 
 #### Confirmar as mudanças
-COMMIT TRANSACTION *TransactionName*;
+>COMMIT TRANSACTION *TransactionName*;
 
 #### Desfazer mudanças
-ROLLBACK;
+>ROLLBACK;
 
 #### Savepoint 
-SAVE TRANSACTION *TransactionName*
+>SAVE TRANSACTION *TransactionName*
 
 #### Voltar ao Savepoint
-ROLLBACK TRANSACTION *TransactionName*
+>ROLLBACK TRANSACTION *TransactionName*
 
     BEGIN TRANSACTION TESTE
     INSERT INTO Branches (BranchId, City, UF)VALUES (NEWID(), 'ASD', 'SP');
