@@ -27,14 +27,14 @@ CREATE DATABASE DFL; /*Criando a base de dados a ser utilizada com o nome de "DF
 
 USE DFL; /*Comando para indicar qual base de dados deve ser utilizada*/
 
-CREATE TABLE DflExemplo(  /* Criando uma tabela com duas colunas*/
+CREATE TABLE DflExemplo(  /* Criando uma tabela com duas colunas, uma do tipo int e outra varchar*/
 Test int,
 Test2 varchar(30)    
 )
 
-ALTER TABLE DflExemplo ADD Test3 int; /*Adicionando uma terceira coluna à tabela*/
+ALTER TABLE DflExemplo ADD Test3 int; /*Adicionando uma terceira coluna à tabela, do tipo int*/
 
-ALTER TABLE DflExemplo ALTER COLUMN Test3 varchar(30); /*Modoficando o tipo de dados da coluna recém-adicionada*/
+ALTER TABLE DflExemplo ALTER COLUMN Test3 varchar(30); /*Modificando o tipo de dados da coluna recém-adicionada, substituindo o tipo int por varchar*/
 
 ALTER TABLE DflExemplo DROP COLUMN Test3; /*Removendo a nova coluna*/
 
