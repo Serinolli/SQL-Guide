@@ -13,7 +13,7 @@ Pode ser utilizado para exibir informações ou selecioná-las para que sejam us
 
     /*Criando uma tabela exemplo*/
     CREATE TABLE Pessoas(
-    Id identity primary key,
+    Id int identity primary key,
     Nome varchar(50),
     Idade int
     )
