@@ -22,8 +22,10 @@ TRANSACTIONS são um meio de garantir a integridade da base de dados. As mudanç
 #### Voltar ao Savepoint
 >ROLLBACK TRANSACTION *TransactionName*
 
+##
+#### Exemplos práticos
+
     BEGIN TRANSACTION TESTE
-    INSERT INTO Branches (BranchId, City, UF)VALUES (NEWID(), 'ASD', 'SP');
     SAVE TRANSACTION TESTES
     ROLLBACK TRANSACTION TESTES
     COMMIT TRANSACTION TESTE
