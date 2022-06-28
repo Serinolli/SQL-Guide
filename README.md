@@ -4,7 +4,7 @@
 
 ##
 #### Atualmente presente no repositório:
-[SQL Languages](github.com/Serinolli): DML, DDL, DCL & TCL.
+[SQL Languages](https://github.com/Serinolli/SQL-Guide/tree/main/SQL%20Languages): DML, DDL, DCL & TCL.
 ##
 <div> 
   <a href="https://instagram.com/rafael_serinolli" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> 
