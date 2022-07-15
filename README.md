@@ -1,5 +1,5 @@
 #### SQL-Guide
-(WIK) Repositório com algumas funcionalidades, conceitos e exemplos SQL.
+(WIP) Repositório com algumas funcionalidades, conceitos e exemplos SQL.
 
 
 ##
