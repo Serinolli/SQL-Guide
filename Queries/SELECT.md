@@ -76,6 +76,6 @@ Seguindo a lógica explicada anteriormente, podemos efetuar algumas consultas pa
  
 ---
 
-Quer aprender a resolver o terceiro exemplo? Acesse [JOINS e Operadores]().
+Quer aprender a resolver o terceiro exemplo? Acesse [JOINS e Operadores](https://github.com/Serinolli/SQL-Guide/blob/main/Utility/NotFound.md).
 
 
