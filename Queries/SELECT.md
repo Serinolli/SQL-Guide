@@ -47,8 +47,7 @@ Consideremos as seguintes tabelas:
 | 125 | 2 | 3 |
 | 126 | 4 | 1 |
 
-</td>
-  <td>
+</td><td>
 
 |ID_VENDEDOR|NOME|QTDE_VENDAS| 
 |--|--|--|
@@ -59,3 +58,24 @@ Consideremos as seguintes tabelas:
 
 </td></tr>
 </table>
+
+Seguindo a lógica explicada anteriormente, podemos efetuar algumas consultas para extrair informações<br>
+
+
+1. Obter as informações de todos os clientes.
+
+   `SELECT * FROM CLIENTES;` 
+  
+2. Obter todos os *vendedores* que já tenham feito mais de 100 vendas.
+
+    `SELECT * FROM VENDEDORES WHERE QTDE.VENDAS > 100;`
+    
+3. Obter o ID da venda, o nome do cliente e o nome do vendedor, além disso, ordenar pelo vendedor mais velho. 
+
+>Bom, para isso acontecer, precisamos entender algumas outras funções, como JOINS e operadores de ordem. 
+ 
+---
+
+Quer aprender a resolver o terceiro exemplo? Acesse [JOINS e Operadores]().
+
+
