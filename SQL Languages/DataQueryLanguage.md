@@ -37,3 +37,4 @@ Pode ser utilizado para exibir informações ou selecioná-las para que sejam us
     /*Retorna todas as informações cadastradas das pessoas que tenham 22 anos*/
     SELECT * FROM Pessoas WHERE Idade = 22;
     
+>Não achou o que procurava? Que tal [mais informações sobre o SELECT](https://github.com/Serinolli/SQL-Guide/tree/main/queries/select.md)
