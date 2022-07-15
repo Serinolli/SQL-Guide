@@ -4,8 +4,8 @@
 
 ##
 #### Atualmente presente no repositório:
-[SQL Languages](https://github.com/Serinolli/SQL-Guide/tree/main/SQL%20Languages): DML, DDL, DCL & TCL.
-[Consultas](https://github.com/Serinolli/SQL-Guide/tree/main/queries/select.md): Select, sub-queries 
+[SQL Languages](https://github.com/Serinolli/SQL-Guide/tree/main/SQL%20Languages): DML, DDL, DCL & TCL.<br>
+[Consultas](https://github.com/Serinolli/SQL-Guide/blob/main/Queries/SELECT.md): Select, sub-queries 
 ##
 <div> 
   <a href="https://instagram.com/rafael_serinolli" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> 
