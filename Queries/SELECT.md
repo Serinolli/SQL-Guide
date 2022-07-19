@@ -28,15 +28,15 @@ Comando [DQL](https://github.com/Serinolli/SQL-Guide/blob/main/SQL%20Languages/D
 Consideremos as seguintes tabelas:   
 
 <table>
-<tr><th>CLIENTES </th><th>VENDAS</th><th>VENDEDOR</th></tr>
+<tr><th>CLIENTES </th><th>VENDAS</th><th>VENDEDORES</th></tr>
 <tr><td>
 
 |ID| NOME | IDADE|
 |--|--|--|
-| 1 | João | 112 |
-| 2 | Pedro | 89 | 
-| 3 | Maria | 101 | 
-| 4 | Rafael | 143 |
+| 1 | João | 22 |
+| 2 | Pedro | 31 | 
+| 3 | Maria | 27 | 
+| 4 | Rafael | 19 |
 
 </td><td>
 
@@ -51,10 +51,10 @@ Consideremos as seguintes tabelas:
 
 |ID_VENDEDOR|NOME|QTDE_VENDAS| 
 |--|--|--|
-| 1 | João | 112 |
-| 2 | Pedro | 89 | 
-| 3 | Maria | 101 | 
-| 4 | Rafael | 143 |
+| 1 | Márcio | 112 |
+| 2 | Gustavo | 89 | 
+| 3 | Sônia | 101 | 
+| 4 | Gabriela | 143 |
 
 </td></tr>
 </table>
@@ -68,9 +68,9 @@ Seguindo a lógica explicada anteriormente, podemos efetuar algumas consultas pa
   
 2. Obter todos os *vendedores* que já tenham feito mais de 100 vendas.
 
-    `SELECT * FROM VENDEDORES WHERE QTDE.VENDAS > 100;`
+    `SELECT * FROM VENDEDORES WHERE QTDE_VENDAS > 100;`
     
-3. Obter o ID da venda, o nome do cliente e o nome do vendedor, além disso, ordenar pelo vendedor mais velho. 
+3. Obter o ID da venda, o nome do cliente e o nome do vendedor, além disso, ordenar pelo cliente mais velho. 
 
 >Bom, para isso acontecer, precisamos entender algumas outras funções, como JOINS e operadores de ordem. 
  
