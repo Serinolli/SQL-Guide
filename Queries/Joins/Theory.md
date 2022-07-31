@@ -1,10 +1,12 @@
 ### JOINS
-Conectam linhas de diferentes tabelas, orientadas por colunas em comum.
+A cláusula JOIN é usada para associar linhas de duas ou mais tabelas, por meio colunas relacionadas entre eles.
 
 ##
 
-Em essência, quando um join é realizado, pode-se entender que estariamos dizendo algo como:<br>
-"As tabelas em questão se relacionam da seguinte forma: Tabela1(Coluna) = Tabela2(Coluna)<br>
-As colunas em questão podem até ter nomes diferentes, contanto que representem o mesmo algo. 
+### O que é um JOIN?
+Em essência, um JOIN seria como dizer:<br>
+>"Quero unir as seguintes tabelas, por meio das seguintes colunas que se relacionam entra elas". 
 
-#### Exemplos
+Um JOIN é uma Cláusula SQL usada para consultar e acessar dados de várias tabelas, com base em relacionamentos lógicos entre elas<br>
+
+### Exemplos
