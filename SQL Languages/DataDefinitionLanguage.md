@@ -4,26 +4,32 @@ Linguagem responsável pela estruturação do banco de dados. Cria, exclui e alt
 ## 
 
 
-CREATE -> Comando com função de criação, o objeto criado depende da palavra seguinte.
->CREATE DATABASE *DatabaseName* -> Cria uma nova base de dados.<br>
->CREATE TABLE *TableName* -> Cria uma nova tabela em sua base de dados.<br>
->CREATE PROCEDURE *ProcedureName* -> Cria um procedimento armazenado para consultas na base de dados.<br>
->[...]
-    
-DROP -> Possui função aposta ao CREATE, responsável por remover tabelas da base de dados.
->DROP DATABASE *DatabaseName* -> Removerá sua base de dados do sistema de gerenciamento.<br>
->DROP TABLE *TableName* -> Removerá uma determinada tabela de sua base de dados.<br>
->[...]
+CREATE - Comando com função de criação, o objeto criado depende da palavra seguinte.
+```sql
+CREATE DATABASE *DatabaseName* - Cria uma nova base de dados.
+CREATE TABLE *TableName* - Cria uma nova tabela em sua base de dados.
+CREATE PROCEDURE *ProcedureName* - Cria um procedimento armazenado para consultas na base de dados.
+[...]
+```
+DROP - Possui função aposta ao CREATE, responsável por remover tabelas da base de dados.
+```sql
+DROP DATABASE *DatabaseName* - Removerá sua base de dados do sistema de gerenciamento.
+DROP TABLE *TableName* - Removerá uma determinada tabela de sua base de dados.
+[...]
+```
 
-ALTER -> Altera a estrutura da base da dados, adicionando, removendo ou modificando colunas de uma tabela
->ALTER TABLE *TableName* ADD *ColumnName* DataType -> Adiciona uma coluna na tabela informada<br>
->ALTER TABLE *TableName* DROP COLUMN *ColumnName* -> Remove uma coluna da tabela informada<br>
->ALTER TABLE *TableName* ALTER COLUMN *ColumnName* NewDataType-> Altera o tipo de dados da coluna<br>
->[...]
+ALTER - Altera a estrutura da base da dados, adicionando, removendo ou modificando colunas de uma tabela
+```sql
+ALTER TABLE *TableName* ADD *ColumnName* DataType - Adiciona uma coluna na tabela informada
+ALTER TABLE *TableName* DROP COLUMN *ColumnName* - Remove uma coluna da tabela informada
+ALTER TABLE *TableName* ALTER COLUMN *ColumnName* NewDataType- Altera o tipo de dados da coluna
+[...]
+```
 
-TRUNCATE TABLE -> Removerá todas as linhas de uma tabela.
->TRUNCATE TABLE *TableName* -> Esvazia a tabela indicada
-
+TRUNCATE TABLE - Removerá todas as linhas de uma tabela.
+```sql
+TRUNCATE TABLE *TableName* - Esvazia a tabela indicada
+```
 ##
 
 ### Exemplos práticos
