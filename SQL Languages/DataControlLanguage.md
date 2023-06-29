@@ -1,11 +1,19 @@
 ### Data Control Language
-Gerencia permissões em uma base de dados.
+Gerencia permissões de usuários em tabelas para uma base de dados.
 
 ##
+GRANT -> Garante permissões
+```sql
+GRANT *Permission* ON *Tabela* TO *Usuario*; 
+```
 
-GRANT -> Garante permissão de acesso a determinados usuários
-> GRANT *Permission* ON *DatabaseName*.*Table* FROM  *'User'*@*'localhost'*; 
+REVOKE -> Remove permissões
+```sql
+REVOKE *Permission* ON *Tabela* FROM *Usuario*;
+REVOKE *ALL PRIVILEGES* ON *Tabela* FROM *'User'*@*'localhost'*;
+```
 
-REVOKE -> Remove permissões de usuários
->REVOKE *Permission* ON *DatabaseName*.*Table* FROM  *'User'*@*'localhost'*;
->REVOKE *ALL PRIVILEGES* ON  *DatabaseName*.*Table* FROM *'User'*@*'localhost'*;
+DENY -> Nega permissões
+```sql
+DENY *Permission* ON *Tabela* TO *Usuario*;
+```
