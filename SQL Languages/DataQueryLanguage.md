@@ -10,12 +10,12 @@ Pode ser utilizado para exibir informações ou selecioná-las para que sejam us
 
 ##
 ### Exemplos práticos
-
+```sql
     /*Criando uma tabela exemplo*/
     CREATE TABLE Pessoas(
-    Id int identity primary key,
-    Nome varchar(50),
-    Idade int
+        Id int identity primary key,
+        Nome varchar(50),
+        Idade int
     )
 
     /*Carga de dados para a tabela criada*/
@@ -36,5 +36,5 @@ Pode ser utilizado para exibir informações ou selecioná-las para que sejam us
     
     /*Retorna todas as informações cadastradas das pessoas que tenham 22 anos*/
     SELECT * FROM Pessoas WHERE Idade = 22;
-    
+```
 >Mais exemplos? Então cheque [aplicando SELECT](https://github.com/Serinolli/SQL-Guide/blob/main/Queries/SELECT.md)!
