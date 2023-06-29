@@ -6,27 +6,42 @@ TRANSACTIONS são um meio de garantir a integridade da base de dados. As mudanç
 
 ## 
 
-
 #### Nova Transaction
->BEGIN TRANSACTION *TransactionName*;
+```sql
+BEGIN TRANSACTION;
+```
 
 #### Confirmar as mudanças
->COMMIT TRANSACTION *TransactionName*;
+```sql
+COMMIT;
+```
 
 #### Desfazer mudanças
->ROLLBACK;
+```sql
+ROLLBACK;
+```
 
 #### Savepoint 
->SAVE TRANSACTION *TransactionName*
+```sql
+SAVE TRANSACTION *TransactionName*
+```
 
 #### Voltar ao Savepoint
->ROLLBACK TRANSACTION *TransactionName*
+```sql
+ROLLBACK TRANSACTION *TransactionName*
+```
+
 
 ##
-#### Exemplos práticos
 
-    BEGIN TRANSACTION TESTE
-    SAVE TRANSACTION TESTES
-    ROLLBACK TRANSACTION TESTES
-    COMMIT TRANSACTION TESTE
-    SELECT * FROM Branches 
+#### Exemplos práticos
+```sql
+BEGIN TRANSACTION;
+INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);
+SAVE TRANSACTION ponto_de_salvamento;
+UPDATE tabela SET coluna = novo_valor;
+ROLLBACK TRANSACTION ponto_de_salvamento;
+COMMIT;
+
+```
+
