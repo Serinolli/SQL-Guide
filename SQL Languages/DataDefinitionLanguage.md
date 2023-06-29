@@ -29,7 +29,7 @@ TRUNCATE TABLE -> Removerá todas as linhas de uma tabela.
 ### Exemplos práticos
 
 
-
+```sql
     CREATE DATABASE DFL; /*Criando a base de dados a ser utilizada com o nome de "DFL"*/
 
     USE DFL; /*Comando para indicar qual base de dados deve ser utilizada*/
@@ -50,3 +50,4 @@ TRUNCATE TABLE -> Removerá todas as linhas de uma tabela.
     DROP TABLE DflExemplo; /*Apagando a tabela*/
 
     DROP DATABASE DFL; /*Apagando a base de dados*/
+```

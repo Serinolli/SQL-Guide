@@ -17,11 +17,12 @@ DELETE -> Remove linhas de uma tabela, aceita clausula WHERE, diferentemente de 
 
 ### Exemplos práticos
 
+```sql
     /*Criando uma tabela exemplo*/
     CREATE TABLE Pessoas(
-    Id int,
-    Nome varchar(50),
-    Idade int
+        Id int,
+        Nome varchar(50),
+        Idade int
     )
 
     /*Inserindo pessoas na lista*/
@@ -38,3 +39,4 @@ DELETE -> Remove linhas de uma tabela, aceita clausula WHERE, diferentemente de 
     /*Deletando registros por nome de usuário, lembrando que usuários com nomes iguais teriam suas contas apagadas também, por isso, 
     uma boa prática é usar a chave primária do registro como condição, no caso, ID.*/
     DELETE FROM Pessoas WHERE Nome = 'Pedro';
+```
